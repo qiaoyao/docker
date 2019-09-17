@@ -1,3 +1,3 @@
 FROM nginx
-COPY / /home/project/web/
-COPY nginx/default.conf /etc/nginx/conf.d/default.conf
+COPY / /home/project/
+COPY nginx/nginx.conf /etc/nginx/conf.d/nginx.conf
